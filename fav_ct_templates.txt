@@ -1,0 +1,10 @@
+centos-7-default_20190926_amd64.tar.xz
+centos-8-default_20201210_amd64.tar.xz
+centos-8-stream-default_20220327_amd64.tar.xz
+ubuntu-20.04-standard_20.04-1_amd64.tar.gz
+ubuntu-21.10-standard_21.10-1_amd64.tar.zst
+ubuntu-22.04-standard_22.04-1_amd64.tar.zst
+debian-11-standard_11.3-1_amd64.tar.zst
+debian-10-turnkey-core_16.1-1_amd64.tar.gz
+debian-10-turnkey-mongodb_16.1-1_amd64.tar.gz
+debian-10-turnkey-redis_16.3-1_amd64.tar.gz
