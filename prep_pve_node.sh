@@ -14,7 +14,7 @@ else
   echo "options kvm-intel nested=Y" > /etc/modprobe.d/kvm-intel.conf
 fi
 
-apt install -y mc byobu mstflint rdma-core ibverbs-utils infiniband-diags network-manager openvswitch-switch net-tools parallel micro mstflint
+apt install -y mc byobu mstflint rdma-core ibverbs-utils infiniband-diags network-manager openvswitch-switch net-tools parallel micro
 byobu-enable
 echo 'if [ -n "$BYOBU_BACKEND" ]; then $BYOBU_BACKEND source $BYOBU_PREFIX/share/byobu/keybindings/f-keys.tmux.disable && $BYOBU_BACKEND source $BYOBU_PREFIX/share/byobu/keybindings/mouse.tmux.disable 2>/dev/null; fi' >>~/.bashrc
 byobu-ctrl-a screen
